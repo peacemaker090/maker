@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Web Page</title>
+</head>
+<body>
+    <p id="message"></p>
+    <script>
+        const message = "Hello, world!";
+const messageElement = document.getElementById("message");
+messageElement.textContent = message;
+
+    </script>
+</body>
+</html>
